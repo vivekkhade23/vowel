@@ -1,0 +1,45 @@
+.datamapbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.boxmap{
+    padding: 15px;
+    border-radius: 5px;
+    margin:15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.cartdatamapbox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cartboxmap{
+    padding: 15px;
+    border-radius: 5px;
+    margin:15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+@media (max-width:900px){
+    .datamapbox{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .cartdatamapbox{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:700px){
+    .datamapbox{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cartdatamapbox{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:500px){
+    .datamapbox{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .cartdatamapbox{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
